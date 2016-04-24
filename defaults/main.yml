@@ -1,0 +1,9 @@
+---
+docker_compose_version: 1.7.0
+docker_compose_os: linux
+docker_compose_architecture: x86_64
+docker_compose_url: https://github.com/docker/compose/releases/download/{{ docker_compose_version }}/docker-compose-{{ docker_compose_os }}-{{ docker_compose_architecture }}
+docker_compose_binary_path: /usr/local/bin/docker-compose
+docker_compose_binary_mode: "0755"
+docker_compose_binary_user: root
+docker_compose_binary_group: root

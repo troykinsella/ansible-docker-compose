@@ -1,0 +1,18 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: Troy Kinsella
+  description: Docker Compose is a tool for defining and running multi-container Docker applications.
+  license: MIT
+  min_ansible_version: 1.6
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+    - utopic
+    - vivid
+    - wily
+  galaxy_tags:
+    - packaging
+  github_branch: master
