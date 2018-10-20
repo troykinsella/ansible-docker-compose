@@ -1,0 +1,17 @@
+---
+driver:
+  name: docker
+  privileged: true
+  provision_command:
+  - apt-get install apt-transport-https
+
+provisioner:
+  name: ansible_playbook
+  hosts: test-kitchen
+  role_name: docker-compose
+
+platforms:
+- name: ubuntu-16.04
+
+suites:
+- name: default
