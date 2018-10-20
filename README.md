@@ -10,16 +10,16 @@ https://docs.docker.com/compose/install/
 
 ## Role Variables
 
-See `defaults/main.yml` for default values.
+See `defaults/main.yml` for default values. All variables are optional.
 
-* docker_compose_version: The docker-compose version to install.
-* docker_compose_os: The OS for which to select the binary.
-* docker_compose_architecture: The architecture for which to select the binary.
-* docker_compose_url: The URL at which the binary can be downloaded.
-* docker_compose_binary_path: The full path to the installed docker-compose binary.
-* docker_compose_binary_mode: The file mode of the docker-compose binary.
-* docker_compose_binary_user: The docker-compose binary user.
-* docker_compose_binary_group: The docker-compose binary group.
+* `docker_compose_version`: The docker-compose version to install.
+* `docker_compose_os`: The OS for which to select the binary.
+* `docker_compose_architecture`: The architecture for which to select the binary.
+* `docker_compose_url`: The URL at which the binary can be downloaded.
+* `docker_compose_binary_path`: The full path to the installed docker-compose binary.
+* `docker_compose_binary_mode`: The file mode of the docker-compose binary.
+* `docker_compose_binary_user`: The docker-compose binary user.
+* `docker_compose_binary_group`: The docker-compose binary group.
 
 ## Example Playbook
 
